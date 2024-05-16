@@ -24,13 +24,14 @@ To use SakeBot in your Discord server, follow these steps:
    - Install discord bot package `pip install discord`.
    - Install python-dotenv to have a place for our discord token `pip install python-dotenv`.
    - Run the bot using `python main.py`.
-
-## Commands
+   - Include giving particular commands to the BOT.
 
 ### General Commands
 
 - `!sakebot help`: List available commands. (work in progress)
 - `!sakebot clear <num_messages>`: Clear messages in the current channel.
+- `!sakebot ping`: Pings bot.
+- `!sakebot meme`: Sends a meme.
 
 ### Bot Response
 
